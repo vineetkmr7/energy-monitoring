@@ -1,0 +1,42 @@
+module.exports = {
+    ACCOUNT_NOT_EXIST: 'This account does not exist',
+    INVALID_CREDENTIALS: 'Invalid Credentials',
+    USER_LOGGED_IN: 'User logged in',
+    // INVALID_EMAIL_REGISTER: 'Email required',
+    // INVALID_PASSWORD_REGISTER: 'Password required',
+    USER_EXIST: 'User already exist',
+    // INVALID_PASSWORD_LOGIN: 'please enter a correct password',
+    // INVALID_EMAIL_LOGIN: 'please enter a correct email to login',
+    INVALID_USER_ID: 'invalid user Id',
+    UNAUTHORIZED_ACCESS: 'Unauthorized access',
+    INTERNAL_SERVER_ERROR: 'Internal server error',
+    // USER_NOT_EXIST: 'User not exist',
+
+    EMAIL_REQUIRED: 'Email id is required',
+    PASSWORD_REQUIRED: 'Password is required',
+    USER_REGISTERED: 'User registered',
+    USER_UPDATED: 'User details updated',
+    USERS_FETCHED: 'User(s) fetched',
+    INVALID_NAME_LENGTH: 'User name cannot be of length smaller than 2',
+    EMAIL_CANNOT_BE_UPDATED: 'Email cannot be updated',
+    PASSWORD_TOO_SHORT: 'Password should be longer than 6',
+    NOTHING_TO_UPDATE: 'Nothing to update',
+    USER_DELETED: 'User deleted',
+
+
+    NAME_REQUIRED: 'Name required',
+    DEVICE_ADDED: 'Device added',
+    DEVICES_FETCHED: 'Device(s) fetched',
+    INVALID_DEVICE_STATUS: 'Device status can only be \'ONLINE\' or \'OFFLINE\'',
+    DEVICE_RESET_DONE: 'Device reset',
+    DEVICES_DELETED: 'Device(s) deleted',
+    INVALID_DEVICE_POWER: 'Device power consumption cannot be negative',
+    DEVICE_UPDATED: 'Device(s) updated',
+    DEVICE_POWER_CONSUMED: 'Device power consumed',
+    DEVICE_POWER_REQUIRED: 'Device power consumption required',
+
+    STATS_FETCHED: 'Stats fetched',
+
+    AUTHENTICATION_REQUIRED: 'Authentication required',
+    USER_LOGGED_OUT: 'User logged out',
+}

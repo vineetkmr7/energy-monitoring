@@ -1,0 +1,26 @@
+<div class="main-container">
+  <div class="container">
+    <header>
+      <div class="row">
+        <div class="col-12 text-right">
+          <button class="btn btn-primary" (click)="login()" *ngIf="!user">Login</button>
+          <button class="btn btn-primary" (click)="logout()" *ngIf="user">Logout</button>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+          <ul class="side-nav">
+            <!-- <li><button class="btn btn-secondary"(click)="addDevice()">Add Device</button></li> -->
+            <li><button class="btn btn-secondary" (click)="viewDevices()">View Devices</button></li>
+            <li><button class="btn btn-secondary" (click)="showStats()">Show Stats</button></li>
+          </ul>
+        </div>
+        <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

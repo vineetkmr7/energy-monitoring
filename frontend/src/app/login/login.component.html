@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h5>Login</h5>
+            <div class="form-group">
+                <label class="form-label" for="email">Email</label>
+                <input class="input-field" type="email" id="email" [(ngModel)]="email">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="password">Password</label>
+                <input class="input-field" type="password" id="password" [(ngModel)]="password">
+            </div>
+            <button class="btn btn-primary" type="button" (click)="login()" (keypress.enter)="login()">Login</button>
+        </div>
+    </div>
+</div>

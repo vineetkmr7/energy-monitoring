@@ -1,0 +1,9 @@
+<div class="container">
+    <p *ngIf="!user">Please login</p>
+    <div *ngIf="user">
+        <p>Total power consumed: {{stats.totalPowerConsumed}}</p>
+        <p>Total online devices: {{stats.onlineDevices ? stats.onlineDevices: 0}}</p>
+        <p>Total offline devices: {{stats.offlineDevices ? stats.offlineDevices: 0}}</p>
+        <p>Total devices: {{stats.totalDevices}}</p>
+    </div>
+</div>
