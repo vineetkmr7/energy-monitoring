@@ -16,7 +16,7 @@ CONFIG.development = {
     port: process.env.PORT || 3000,
     db: {
         host: process.env.DB_HOST || 'mongodb+srv',
-        cluster: process.DB_CLUSTER || 'cluster0.ubyuw.mongodb.net',
+        cluster: process.DB_CLUSTER,
         username: process.env.DB_USERNAME || 'admin',
         password: process.env.DB_PASS || 'admin',
         name: process.env.DB_NAME || 'energy-monitoring-db',
@@ -28,7 +28,7 @@ CONFIG.production = {
     port: process.env.PORT || 3000,
     db: {
         host: process.env.DB_HOST || 'mongodb+srv',
-        cluster: process.DB_CLUSTER || 'cluster0.ubyuw.mongodb.net',
+        cluster: process.DB_CLUSTER,
         username: process.env.DB_USERNAME || 'admin',
         password: process.env.DB_PASS || 'admin',
         name: process.env.DB_NAME || 'energy-monitoring-db',
@@ -40,7 +40,7 @@ CONFIG.test = {
     port: process.env.PORT || 3000,
     db: {
         host: process.env.DB_HOST || 'mongodb+srv',
-        cluster: process.DB_CLUSTER || 'cluster0.ubyuw.mongodb.net',
+        cluster: process.DB_CLUSTER,
         username: process.env.DB_USERNAME || 'admin',
         password: process.env.DB_PASS || 'admin',
         name: process.env.DB_NAME || 'energy-monitoring-db-test',
